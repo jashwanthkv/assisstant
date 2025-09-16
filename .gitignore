@@ -1,0 +1,14 @@
+# Ignore virtual environment folder
+.venv/
+
+# Ignore IDE config
+.idea/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+# created by virtualenv automatically
+

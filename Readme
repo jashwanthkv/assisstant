@@ -1,0 +1,38 @@
+# Onscreen Assistant Backend API
+
+A Flask-based backend API for an Onscreen Assistant system, supporting semantic search, chat, and note management.
+
+---
+
+## 🚀 Features
+
+- Semantic search + LLM-based chat
+- Add and store notes under topics
+- Debug notes
+- RAG (Retrieval-Augmented Generation) support
+
+---
+
+## ⚙️ Setup Instructions
+
+### 📝 Project Description
+
+This project provides the backend API for an Onscreen Assistant that runs on every webpage via a browser extension or desktop integration.
+It enables users to:
+- Add personal notes categorized by topics
+- Ask questions using semantic search and a language model (LLM)
+- Retrieve past conversations
+- Perform advanced Retrieval-Augmented Generation (RAG) for deep contextual answers
+
+The system uses:
+- **Chroma** as a vector database for note storage and semantic search
+- **HuggingFace Embeddings** for embedding user inputs
+- **Firebase** to store chat history
+- **Langchain** for orchestrating the semantic search + LLM pipeline
+
+---
+
+### 1️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
